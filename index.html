@@ -35,6 +35,13 @@
             const files = await fetchRepoContents(path);
             const ul = document.getElementById('file-list');
 
+            if (!Array.isArray(files)) {
+                const li = document.createElement('li');
+                li.textContent = 'Error fetching files';
+                ul.appendChild(li);
+                return;
+            }
+
             files.forEach(file => {
                 if (file.path.startsWith(currentPath)) {
                     const li = document.createElement('li');
