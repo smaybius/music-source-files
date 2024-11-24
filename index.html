@@ -22,7 +22,6 @@
     <ul id="file-list"></ul>
 
     <script>
-        // Replace with your GitHub repository details
         const owner = 'smaybius';
         const repo = 'music-source-files';
 
@@ -40,11 +39,14 @@
                 const li = document.createElement('li');
                 if (file.type === 'file') {
                     const a = document.createElement('a');
-                    a.href = file.html_url;
+                    a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
                     a.textContent = file.name;
                     li.appendChild(a);
                 } else if (file.type === 'dir') {
-                    li.textContent = file.name + '/';
+                    const a = document.createElement('a');
+                    a.href = `#${file.path}`;
+                    a.textContent = file.name + '/';
+                    li.appendChild(a);
                     ul.appendChild(li);
                     // Recursively list files in the directory
                     listFiles(file.path);
@@ -53,7 +55,6 @@
             });
         }
 
-        // Load the file list on page load
         listFiles();
     </script>
 </body>
