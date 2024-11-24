@@ -39,7 +39,17 @@
             const directories = files.filter(file => file.type === 'dir');
             const regularFiles = files.filter(file => file.type === 'file');
 
-            // List directories first
+            // List files first
+            for (const file of regularFiles) {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
+                a.textContent = file.name;
+                li.appendChild(a);
+                ul.appendChild(li);
+            }
+
+            // Then list directories
             for (const file of directories) {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
@@ -52,16 +62,6 @@
                 li.appendChild(nestedUl);
 
                 await listFiles(file.path, nestedUl);
-            }
-
-            // Then list files
-            for (const file of regularFiles) {
-                const li = document.createElement('li');
-                const a = document.createElement('a');
-                a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
-                a.textContent = file.name;
-                li.appendChild(a);
-                ul.appendChild(li);
             }
         }
 
