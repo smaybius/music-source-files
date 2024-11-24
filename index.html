@@ -25,14 +25,16 @@
         const repo = 'music-source-files';
         const currentPath = window.location.pathname.replace(/^\/+|\/+$/g, '');
 
-        async function fetchRepoContents(path = '') {
-            const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-            console.log(`Fetching contents from: ${apiUrl}`);
-            const response = await fetch(apiUrl);
-            const data = await response.json();
-            console.log('Response data:', data);
-            return data;
-        }
+		async function fetchRepoContents(path = '') {
+			const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}/`;
+			console.log(`Fetching contents from: ${apiUrl}`);
+			const response = await fetch(apiUrl);
+			const data = await response.json();
+			console.log('Response data:', data);
+			return data;
+		}
+
+
 
         async function listFiles(path = '') {
             const files = await fetchRepoContents(path);
