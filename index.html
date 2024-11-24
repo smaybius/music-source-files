@@ -27,12 +27,26 @@
 
         async function fetchRepoContents(path = '') {
             const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-            const response = await fetch(apiUrl);
-            return response.json();
+            try {
+                const response = await fetch(apiUrl);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log(data);
+                return data;
+            } catch (error) {
+                console.error(`Failed to fetch repo contents: ${error}`);
+                return [];
+            }
         }
 
         async function listFiles(path = '', parentUl = null) {
             const files = await fetchRepoContents(path);
+            if (!Array.isArray(files)) {
+                console.error('Expected an array of files but got:', files);
+                return;
+            }
             const ul = parentUl || document.getElementById('file-list');
 
             // Sort files and directories
