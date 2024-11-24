@@ -1,0 +1,27 @@
+Keyboard (QWERTY123) notation for drums in Anvil Studio:
+
+1: Bass drum
+2: Bass Drum 2
+3: Snare drum
+4: Snare drum 2
+5: Floor tom
+6: Hi-hat closed
+7: High floortom
+8: Pedal hi-hat
+9: Low tom
+0: Hi-hat opened
+Q: Crash cymbal
+W: High tom
+E: Ride cymbal
+R: Tambourine
+T: Cowbell
+Y: High woodblock
+U: Low woodblock
+I: Open triangle
+-: High mid tom
+
+
+
+W
+9
+5

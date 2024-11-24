@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Repository File List</h1>
+    <ul id="file-list"></ul>
+
+    <script>
+        // Replace with your GitHub repository details
+        const owner = 'smaybius';
+        const repo = 'music-source-files';
+
+        async function fetchRepoContents(path = '') {
+            const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+            const response = await fetch(apiUrl);
+            return response.json();
+        }
+
+        async function listFiles(path = '') {
+            const files = await fetchRepoContents(path);
+            const ul = document.getElementById('file-list');
+
+            files.forEach(file => {
+                const li = document.createElement('li');
+                if (file.type === 'file') {
+                    const a = document.createElement('a');
+                    a.href = file.html_url;
+                    a.textContent = file.name;
+                    li.appendChild(a);
+                } else if (file.type === 'dir') {
+                    li.textContent = file.name + '/';
+                    ul.appendChild(li);
+                    // Recursively list files in the directory
+                    listFiles(file.path);
+                }
+                ul.appendChild(li);
+            });
+        }
+
+        // Load the file list on page load
+        listFiles();
+    </script>
+</body>
+</html>

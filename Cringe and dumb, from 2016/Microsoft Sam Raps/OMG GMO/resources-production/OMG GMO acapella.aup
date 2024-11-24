@@ -1,0 +1,449 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="OMG GMO acapella_data" version="1.3.0" audacityversion="2.1.0" sel0="119.4348304501" sel1="119.4348304501" vpos="336" h="65.5770615821" zoom="13.9378004740" rate="22050.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags/>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="22050" gain="1.0" pan="0.0">
+		<waveclip offset="98.96200680">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22768">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000677.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus.wav" aliasstart="0" aliaslen="22768" aliaschannel="0" min="-0.421112" max="0.59967" rms="0.056229"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="103.21891156">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22768">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000677.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus.wav" aliasstart="0" aliaslen="22768" aliaschannel="0" min="-0.421112" max="0.59967" rms="0.056229"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="107.43841270">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="33439">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e000086d.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus2.wav" aliasstart="0" aliaslen="33439" aliaschannel="0" min="-0.839813" max="0.757263" rms="0.130514"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="202.05698413">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22768">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000677.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus.wav" aliasstart="0" aliaslen="22768" aliaschannel="0" min="-0.421112" max="0.59967" rms="0.056229"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="206.42050850">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22768">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000677.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus.wav" aliasstart="0" aliaslen="22768" aliaschannel="0" min="-0.421112" max="0.59967" rms="0.056229"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="210.77268537">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="33439">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e000086d.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus2.wav" aliasstart="0" aliaslen="33439" aliaschannel="0" min="-0.839813" max="0.757263" rms="0.130514"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mike chorus" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="22050" gain="1.0" pan="0.0">
+		<waveclip offset="98.96200680">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23742">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000dd2.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus.wav" aliasstart="0" aliaslen="23742" aliaschannel="0" min="-0.788879" max="0.65979" rms="0.058012"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="103.17473923">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23742">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000dd2.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus.wav" aliasstart="0" aliaslen="23742" aliaschannel="0" min="-0.788879" max="0.65979" rms="0.058012"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="107.43841270">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34298">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000aa5.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus2.wav" aliasstart="0" aliaslen="34298" aliaschannel="0" min="-0.616547" max="0.540436" rms="0.090746"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="202.05698413">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23742">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000dd2.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus.wav" aliasstart="0" aliaslen="23742" aliaschannel="0" min="-0.788879" max="0.65979" rms="0.058012"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="206.37633617">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="23742">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000dd2.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus.wav" aliasstart="0" aliaslen="23742" aliaschannel="0" min="-0.788879" max="0.65979" rms="0.058012"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="210.73372846">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34298">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000aa5.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mike chorus2.wav" aliasstart="0" aliaslen="34298" aliaschannel="0" min="-0.616547" max="0.540436" rms="0.090746"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sam verse1" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="22050" gain="1.0" pan="0.0">
+		<waveclip offset="6.12500000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1096656">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000473.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse1.wav" aliasstart="0" aliaslen="262144" aliaschannel="0" min="-0.652985" max="0.911957" rms="0.116768"/>
+				</waveblock>
+				<waveblock start="262144">
+					<pcmaliasblockfile summaryfile="e000057b.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse1.wav" aliasstart="262144" aliaslen="262144" aliaschannel="0" min="-0.767792" max="0.999969" rms="0.116063"/>
+				</waveblock>
+				<waveblock start="524288">
+					<pcmaliasblockfile summaryfile="e0000f99.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse1.wav" aliasstart="524288" aliaslen="262144" aliaschannel="0" min="-0.593872" max="0.891754" rms="0.13019"/>
+				</waveblock>
+				<waveblock start="786432">
+					<pcmaliasblockfile summaryfile="e0000433.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse1.wav" aliasstart="786432" aliaslen="262144" aliaschannel="0" min="-1.0" max="0.999969" rms="0.124408"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<pcmaliasblockfile summaryfile="e00005c5.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse1.wav" aliasstart="1048576" aliaslen="48080" aliaschannel="0" min="-0.547485" max="0.757202" rms="0.091526"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="109.08009070">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="231140">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000d59.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse2.wav" aliasstart="0" aliaslen="231140" aliaschannel="0" min="-0.729004" max="0.912323" rms="0.117309"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="98.96200680">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="21239">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000067.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus.wav" aliasstart="0" aliaslen="21239" aliaschannel="0" min="-0.764465" max="0.9711" rms="0.098119"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="103.28825397">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="21239">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000067.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus.wav" aliasstart="0" aliaslen="21239" aliaschannel="0" min="-0.764465" max="0.9711" rms="0.098119"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="107.43841270">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="36199">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000f0c.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus2.wav" aliasstart="0" aliaslen="36199" aliaschannel="0" min="-0.509735" max="0.672577" rms="0.093387"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="202.05698413">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="21239">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000067.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus.wav" aliasstart="0" aliaslen="21239" aliaschannel="0" min="-0.764465" max="0.9711" rms="0.098119"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="206.49735657">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="21239">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000067.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Mary chorus.wav" aliasstart="0" aliaslen="21239" aliaschannel="0" min="-0.764465" max="0.9711" rms="0.098119"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="210.64751530">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="36199">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000f0c.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam chorus2.wav" aliasstart="0" aliaslen="36199" aliaschannel="0" min="-0.509735" max="0.672577" rms="0.093387"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="219.62960147">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="275373">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000607.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse4.wav" aliasstart="0" aliaslen="262144" aliaschannel="0" min="-0.701385" max="0.833618" rms="0.118388"/>
+				</waveblock>
+				<waveblock start="262144">
+					<pcmaliasblockfile summaryfile="e0000fe6.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Sam verse4.wav" aliasstart="262144" aliaslen="13229" aliaschannel="0" min="-0.386414" max="0.541656" rms="0.045217"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="133.35528345">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="933824">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e0000ca7.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\Zira interview1.wav" aliasstart="0" aliaslen="202478" aliaschannel="0" min="-0.427734" max="0.75824" rms="0.089573"/>
+				</waveblock>
+				<waveblock start="202478">
+					<pcmaliasblockfile summaryfile="e0000b7c.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\David interview1.wav" aliasstart="0" aliaslen="262144" aliaschannel="0" min="-0.502747" max="0.54187" rms="0.057906"/>
+				</waveblock>
+				<waveblock start="464622">
+					<pcmaliasblockfile summaryfile="e0000cd9.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\David interview1.wav" aliasstart="262144" aliaslen="262144" aliaschannel="0" min="-0.512665" max="0.55368" rms="0.058812"/>
+				</waveblock>
+				<waveblock start="726766">
+					<pcmaliasblockfile summaryfile="e000056a.auf" aliasfile="C:\Users\cdog2_000\Desktop\Microsoft Sam Raps\OMG GMO\David interview1.wav" aliasstart="524288" aliaslen="207058" aliaschannel="0" min="-0.464844" max="0.64624" rms="0.048855"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Ace verse1" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="55.85996599">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1895165">
+				<waveblock start="0">
+					<simpleblockfile filename="e00008aa.au" len="262144" min="-0.6548" max="0.655895" rms="0.102914"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000e90.au" len="262144" min="-0.822665" max="0.715672" rms="0.096996"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000313.au" len="262144" min="-0.705299" max="0.779649" rms="0.095903"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000dd0.au" len="262144" min="-1.0" max="0.80579" rms="0.11094"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e00008a5.au" len="256509" min="-0.498914" max="0.526216" rms="0.086368"/>
+				</waveblock>
+				<waveblock start="1305085">
+					<simpleblockfile filename="e00007de.au" len="262144" min="-0.849641" max="0.703593" rms="0.091514"/>
+				</waveblock>
+				<waveblock start="1567229">
+					<simpleblockfile filename="e0000270.au" len="240384" min="-0.681705" max="0.685037" rms="0.096055"/>
+				</waveblock>
+				<waveblock start="1807613">
+					<simpleblockfile filename="e0000425.au" len="87552" min="-0.869779" max="0.771217" rms="0.109218"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="99.99963771">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="139392">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c90.au" len="139392" min="-0.771769" max="0.798874" rms="0.091163"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="104.12367399">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="140544">
+				<waveblock start="0">
+					<simpleblockfile filename="e000028e.au" len="140544" min="-0.769192" max="1.0" rms="0.091733"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="175.57777830">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1162097">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c7e.au" len="262144" min="-0.765475" max="0.951138" rms="0.133233"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e000096c.au" len="262144" min="-0.688517" max="0.765359" rms="0.110356"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00004c7.au" len="262144" min="-0.677796" max="0.65926" rms="0.09092"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000b1a.au" len="262144" min="-0.617689" max="0.629425" rms="0.091009"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e000024e.au" len="113521" min="-1.0" max="0.886681" rms="0.126921"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="203.20874031">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="139392">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000cf9.au" len="139392" min="-0.771769" max="0.798874" rms="0.091163"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="207.33277659">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="140544">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009cf.au" len="140544" min="-0.769192" max="1.0" rms="0.091733"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="212.16139337">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="323712">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000b32.au" len="262144" min="-0.859603" max="0.996703" rms="0.11491"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000525.au" len="61568" min="-0.291924" max="0.372195" rms="0.056518"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="231.99037297">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="453888">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000598.au" len="262144" min="-0.542993" max="0.503409" rms="0.094896"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000c54.au" len="191744" min="-0.966745" max="0.801081" rms="0.087307"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="119.43483045">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="608256">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c0a.au" len="262144" min="-0.996775" max="0.987968" rms="0.126669"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000f69.au" len="262144" min="-0.97007" max="0.782973" rms="0.121516"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e000027d.au" len="83968" min="-0.41897" max="0.54461" rms="0.06111"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Ace verse1" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="55.85996599">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1895165">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006c2.au" len="262144" min="-0.75433" max="0.71329" rms="0.099219"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000927.au" len="262144" min="-0.788584" max="0.77738" rms="0.092521"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00003eb.au" len="262144" min="-0.701483" max="0.789347" rms="0.092565"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e00003d5.au" len="262144" min="-0.842925" max="0.767866" rms="0.106553"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0000406.au" len="256509" min="-0.479851" max="0.539529" rms="0.08282"/>
+				</waveblock>
+				<waveblock start="1305085">
+					<simpleblockfile filename="e0000fe3.au" len="262144" min="-0.889356" max="0.735892" rms="0.087259"/>
+				</waveblock>
+				<waveblock start="1567229">
+					<simpleblockfile filename="e0000bc5.au" len="240384" min="-0.654666" max="0.675535" rms="0.091078"/>
+				</waveblock>
+				<waveblock start="1807613">
+					<simpleblockfile filename="e000036a.au" len="87552" min="-0.652269" max="0.634458" rms="0.096174"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="99.99963771">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="139392">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000a49.au" len="139392" min="-0.661751" max="0.699827" rms="0.082252"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="104.12367399">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="140544">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fe9.au" len="140544" min="-0.774733" max="0.955932" rms="0.085983"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="175.57777830">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1162097">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004a3.au" len="262144" min="-0.750405" max="0.797043" rms="0.126134"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e000095d.au" len="262144" min="-0.777087" max="0.697352" rms="0.10792"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000cac.au" len="262144" min="-0.61589" max="0.62838" rms="0.086495"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000c23.au" len="262144" min="-0.657449" max="0.546187" rms="0.085888"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0000a38.au" len="113521" min="-0.749925" max="0.729447" rms="0.111941"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="203.20874031">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="139392">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004be.au" len="139392" min="-0.661751" max="0.699827" rms="0.082252"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="207.33277659">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="140544">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005b5.au" len="140544" min="-0.774733" max="0.955932" rms="0.085983"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="212.16139337">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="323712">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006fa.au" len="262144" min="-0.876383" max="0.993856" rms="0.113082"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000cca.au" len="61568" min="-0.308159" max="0.413159" rms="0.057406"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="231.99037297">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="453888">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000a22.au" len="262144" min="-0.562301" max="0.526734" rms="0.091203"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00005ac.au" len="191744" min="-1.0" max="0.816184" rms="0.085963"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="119.43483045">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="608256">
+				<waveblock start="0">
+					<simpleblockfile filename="e000055d.au" len="262144" min="-0.920585" max="0.997889" rms="0.121284"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00000f5.au" len="262144" min="-0.922926" max="0.728807" rms="0.1175"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000625.au" len="83968" min="-0.45475" max="0.533787" rms="0.057701"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
