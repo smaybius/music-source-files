@@ -33,16 +33,20 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                console.log(data);
+                console.log(`Fetched data for path: ${path}`, data);
                 return data;
             } catch (error) {
                 console.error(`Failed to fetch repo contents: ${error}`);
-                return [];
+                return null;
             }
         }
 
         async function listFiles(path = '', parentUl = null) {
             const files = await fetchRepoContents(path);
+            if (!files) {
+                console.error('No files fetched for path:', path);
+                return;
+            }
             if (!Array.isArray(files)) {
                 console.error('Expected an array of files but got:', files);
                 return;
@@ -55,6 +59,7 @@
 
             // List files first
             for (const file of regularFiles) {
+                console.log(`Listing file: ${file.path}`);
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
@@ -65,6 +70,7 @@
 
             // Then list directories
             for (const file of directories) {
+                console.log(`Listing directory: ${file.path}`);
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.href = `#${file.path}`;
