@@ -20,63 +20,52 @@
 <body>
     <h1>Repository File List</h1>
     <ul id="file-list"></ul>
+
     <script>
         const owner = 'smaybius';
         const repo = 'music-source-files';
-        const currentPath = window.location.pathname.replace(/^\/+|\/+$/g, '');
 
-		async function fetchRepoContents(path = '') {
-			const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}/`;
-			console.log(`Fetching contents from: ${apiUrl}`);
-			const response = await fetch(apiUrl);
-			const data = await response.json();
-			console.log('Response data:', data);
-			return data;
-		}
+        async function fetchRepoContents(path = '') {
+            const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+            const response = await fetch(apiUrl);
+            return response.json();
+        }
 
-
-
-        async function listFiles(path = '') {
+        async function listFiles(path = '', parentUl = null) {
             const files = await fetchRepoContents(path);
-            const ul = document.getElementById('file-list');
+            const ul = parentUl || document.getElementById('file-list');
 
-            if (!Array.isArray(files)) {
-                const li = document.createElement('li');
-                li.textContent = 'Error fetching files';
-                ul.appendChild(li);
-                return;
-            }
+            // Sort files and directories
+            const directories = files.filter(file => file.type === 'dir');
+            const regularFiles = files.filter(file => file.type === 'file');
 
-            files.forEach(file => {
-                if (file.path.startsWith(currentPath)) {
-                    const li = document.createElement('li');
-                    if (file.type === 'file') {
-                        const a = document.createElement('a');
-                        a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
-                        a.textContent = file.name;
-                        li.appendChild(a);
-                    } else if (file.type === 'dir') {
-                        const a = document.createElement('a');
-                        a.href = `${file.path}/index.html`;
-                        a.textContent = file.name + '/';
-                        li.appendChild(a);
-                    }
-                    ul.appendChild(li);
-                }
-            });
-
-            if (currentPath) {
-                const parentDir = currentPath.split('/').slice(0, -1).join('/');
+            // List directories first
+            for (const file of directories) {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
-                a.href = `/${parentDir}/index.html`;
-                a.textContent = 'Parent Directory';
+                a.href = `#${file.path}`;
+                a.textContent = `${file.name}/`;
                 li.appendChild(a);
-                ul.prepend(li);
+                ul.appendChild(li);
+
+                const nestedUl = document.createElement('ul');
+                li.appendChild(nestedUl);
+
+                await listFiles(file.path, nestedUl);
+            }
+
+            // Then list files
+            for (const file of regularFiles) {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
+                a.textContent = file.name;
+                li.appendChild(a);
+                ul.appendChild(li);
             }
         }
 
-        listFiles(currentPath);
+        listFiles();
     </script>
 </body>
 </html>
