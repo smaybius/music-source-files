@@ -19,7 +19,7 @@
 </head>
 <body>
     <h1>Repository File List</h1>
-    <div id="log"></div>
+    <ul id="file-list"></ul>
 
     <script>
         const owner = 'smaybius';
@@ -41,7 +41,7 @@
             }
         }
 
-        async function listFiles(path = '') {
+        async function listFiles(path = '', parentUl = null) {
             const files = await fetchRepoContents(path);
             if (!files) {
                 console.error('No files fetched for path:', path);
@@ -51,8 +51,38 @@
                 console.error('Expected an array of files but got:', files);
                 return;
             }
-            const logDiv = document.getElementById('log');
-            logDiv.innerHTML = `<pre>${JSON.stringify(files, null, 2)}</pre>`;
+            const ul = parentUl || document.getElementById('file-list');
+
+            // Sort files and directories
+            const regularFiles = files.filter(file => file.type === 'file');
+            const directories = files.filter(file => file.type === 'dir');
+
+            // List files first
+            for (const file of regularFiles) {
+                console.log(`Listing file: ${file.path}`);
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
+                a.textContent = file.name;
+                li.appendChild(a);
+                ul.appendChild(li);
+            }
+
+            // Then list directories
+            for (const file of directories) {
+                console.log(`Listing directory: ${file.path}`);
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `#${file.path}`;
+                a.textContent = `${file.name}/`;
+                li.appendChild(a);
+                ul.appendChild(li);
+
+                const nestedUl = document.createElement('ul');
+                li.appendChild(nestedUl);
+
+                await listFiles(file.path, nestedUl);
+            }
         }
 
         listFiles();
