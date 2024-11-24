@@ -27,8 +27,11 @@
 
         async function fetchRepoContents(path = '') {
             const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+            console.log(`Fetching contents from: ${apiUrl}`);
             const response = await fetch(apiUrl);
-            return response.json();
+            const data = await response.json();
+            console.log('Response data:', data);
+            return data;
         }
 
         async function listFiles(path = '') {
