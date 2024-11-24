@@ -8,6 +8,13 @@
         body {
             font-family: Arial, sans-serif;
         }
+        ul {
+            list-style-type: none;
+            padding-left: 20px; /* Add some left padding for indentation */
+        }
+        li {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -42,3 +49,13 @@
             }
             if (!Array.isArray(files)) {
                 console.error('Expected an array of files but got:', files);
+                return;
+            }
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML = `<pre>${JSON.stringify(files, null, 2)}</pre>`;
+        }
+
+        listFiles();
+    </script>
+</body>
+</html>
