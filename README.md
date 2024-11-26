@@ -16,6 +16,6 @@
 - galaxian, warpwarp: Remake of a few short game soundtracks.
 - GoAnimate Dance remix: Dank meme remix of "DANCE.MID" from partnersinrhyme, mostly known as "Dance" on GoAnimate.
 - jubr jackpot: Unreleased Sega Genesis cover of the jackpot theme from Joe's Ultimate Bus Ride.
-- MSGS (MIDI) version of SammieVL_Gametheme (formerly WouterVL_Gametheme for findability) made back in 2018 before her transition if I remember right.
+- MSGS (MIDI) version of SammieVL_Gametheme made back in 2018 before her transition if I remember right.
 - plz sbd rmx dis: Written version of the "please someone remix this" bytebeat melody as seen on https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/.
 - ringtone: Reduced version of the Cherrygrove City theme from Pokemon Gold/Silver/Crystal.
